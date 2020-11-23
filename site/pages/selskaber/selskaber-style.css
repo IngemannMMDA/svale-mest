@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Font: Open Sans bruges, da man får at vide via Design Brief, så her under HTML tagget fortæller vi at hele HTML/CSS dokumentet skal bruge fontet Open Sans */
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	height: 62px;
+	width: 100%;
+	padding: 0 0 0 0;
+	background-color: #96192B;
+}
+
+.logo {
+	float: left;
+	width: 250px;
+	height: 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+
+.nav-btn {
+	float: right;
+	display: inline-block;
+	color: #fff;
+	margin: 0px 45px 0px 0px;
+	padding: 20px 5px 20px 5px;
+	font-size: 1em;
+	text-decoration-line: none;
+}
+
+.nav-btn:hover {
+	background-color: #741321;
+}
+
+.fa-bars {
+	float: right;
+	display: inline-block;
+	color: #fff;
+	margin: 19px 25px 0 0;
+	padding: 0 0 0 0;
+	font-size: 1.5em;
+}
+
+.private-arrangementer {
+	width: 100%;
+	padding: 50px 350px 50px 350px;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+.bryllup-1 {
+	display: inline-block;
+	width: 45%;
+	height: 350px;
+	margin: 10px 0px 75px 50px;
+	padding: 150px 0 0 0;
+	float: left;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-image: url("../../images/uncropped/bryllups-kage.jpg");
+	background-repeat: no-repeat;
+}
+
+.konfirmation {
+	display: inline-block;
+	width: 45%;
+	height: 350px;
+	margin: 10px 50px 75px 0px;
+	padding: 150px 0 0 0;
+	float: right;
+	color: #fff;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	background-image: url("../../images/uncropped/arrangement.jpg");
+	background-repeat: no-repeat;
+}
+
+a {
+	color: #fff;
+	text-decoration-line: none;
+}
+
+.bryllup-1:hover, .konfirmation:hover {
+	background-color: #000000;
+	opacity:0.8;
+}
+
+footer {
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	background-color: #191C27;
+	color: #fff;
+	text-align: center;
+	padding: 0 0 0 0;
+}
+
+.footer-logo {
+	width: 350px;
+	padding: 50px 0 25px 0;
+}
+
+.bottom-icons {
+	border-radius: 50px;
+	color: #fff;
+	padding: 31px 10px 15px 10px;
+	font-size: 1em;
+	text-align: center;
+	text-decoration-line: none
+}
+
+.bottom-icons:hover {
+	background-color: #2F354B;
+}
+
+.fa-facebook, .fa-instagram {
+	font-size: 2.5em;
+	margin: 25px 10px 0 10px;
+}
+
+/* Mobil */
+@media screen and (max-width: 640px) {
+	h1 {
+		font-size: 1em;
+	}
+	
+	p {
+		font-size: 1em;
+	}
+	.nav-btn {
+		display: none;
+	}
+	.fa-bars {
+		margin: 20px 35px 0 0;
+	}
+	.logo {
+		margin: 20px 0 0 0;
+	}
+	.private-arrangementer {
+		padding: 0 10px 0 10px;
+	}
+	.bryllup-1 {
+		width: 100%;
+		margin: 0 0 0 0;
+	}
+	.konfirmation {
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+}

@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* box-sizing: border-box betyder,  */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Font: Open Sans bruges, da man får at vide via Design Brief, så her under HTML tagget fortæller vi at hele HTML/CSS dokumentet skal bruge fontet Open Sans */
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	height: 62px;
+	width: 100%;
+	padding: 0 0 0 0;
+	background-color: #96192B;
+}
+
+.logo {
+	float: left;
+	width: 250px;
+	height: 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+
+.nav-btn {
+	float: right;
+	display: inline-block;
+	color: #fff;
+	margin: 0px 45px 0px 0px;
+	padding: 20px 5px 20px 5px;
+	font-size: 1em;
+	text-decoration-line: none;
+}
+
+.nav-btn:hover {
+	background-color: #741321;
+}
+
+.big-photo-text {
+	display: inline-block;
+	width: 100%;
+	height: 800px;
+	padding: 650px 0 0 0;
+	text-align: center;
+	color: #fff;
+	background-image: url("images/wide-sm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.top-left-season {
+	display: inline-block;
+	float: left;
+	margin: 10px 2.5px 5px 0px;
+	padding: 110px 0 0 0;
+	background-image: url("images/foraar-sm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 49%;
+	height: 350px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.top-right-season {
+	display: inline-block;
+	float: right;
+	margin: 10px 0px 5px 2.5px;
+	padding: 110px 0 0 0;
+	background-image: url("images/sommer-sm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 350px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.bottom-left-season {
+	display: inline-block;
+	float: left;
+	margin: 5px 2.5px 10px 0px;
+	padding: 110px 0 0 0;
+	background-image: url("images/efteraar-sm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 49%;
+	height: 350px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.bottom-right-season {
+	display: inline-block;
+	float: right;
+	margin: 5px 0px 10px 2.5px;
+	padding: 110px 0 0 0;
+	background-image: url("images/vinter-sm.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 50%;
+	height: 350px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.a-season {
+	color: #fff;
+	margin: auto;
+	padding: 0 0 0 0;
+	font-size: 2em;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-decoration-line: none;
+}
+
+.h1-oplev {
+	margin: 150px 0 0 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.p-season {
+	margin: 0 0 0 0;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.top-left-season:hover, .top-right-season:hover, .bottom-left-season:hover, .bottom-right-season:hover {
+	background-color: #000000;
+	opacity:0.8;
+}
+
+.oplev-menuer {
+	display: inline-block;
+	margin: 0 0 0 0;
+	background-image: url("images/uncropped/mad-full.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 425px;
+	text-align: center;
+	color: #fff;
+}
+
+footer {
+	width: 100%;
+	height: 400px;
+	display: inline-block;
+	background-color: #191C27;
+	color: #fff;
+	text-align: center;
+	padding: 0 0 0 0;
+}
+
+.footer-logo {
+	width: 350px;
+	padding: 50px 0 25px 0;
+}
+
+.bottom-icons {
+	border-radius: 50px;
+	color: #fff;
+	padding: 31px 10px 15px 10px;
+	font-size: 1em;
+	text-align: center;
+	text-decoration-line: none
+}
+
+.bottom-icons:hover {
+	background-color: #2F354B;
+}
+
+.fa-facebook, .fa-instagram {
+	font-size: 2.5em;
+	margin: 25px 10px 0 10px;
+}
+
+/* Mobil */
+@media screen and (max-width: 640px) {
+	h1 {
+		font-size: 1em;
+	}
+	
+	p {
+		font-size: 1em;
+	}
+	
+	.navbar {
+		display: inline;
+		width: 100%;
+		height: auto;
+		float: right;
+	}
+	
+	.nav-btn {
+		height: auto;
+	}
+	.logo {
+		margin: 20px 0 0 0;
+	}
+	.big-photo-text {
+		height: 300px;
+		padding: 125px 0 0 0;
+		font-size: 1.5em;
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	.top-left-season, .top-right-season, .bottom-left-season, .bottom-right-season {
+		width: 100%;
+		margin: 2.5px 0 2.5px 0;
+	}
+}

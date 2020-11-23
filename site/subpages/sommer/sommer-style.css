@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.navbar {
+	height: 61px;
+	width: 100%;
+	padding: 0 0 0 0;
+	background-color: #96192B;
+}
+
+.logo {
+	float: left;
+	width: 250px;
+	height: 20px;
+	display: inline-block;
+	margin: 20px 0 0 0;
+}
+
+.nav-btn {
+	float: right;
+	display: inline-block;
+	color: #fff;
+	margin: 0px 45px 0px 0px;
+	padding: 20px 5px 20px 5px;
+	font-size: 1em;
+	text-decoration-line: none;
+}
+
+.nav-btn:hover {
+	background-color: #741321;
+}
+
+.fa-bars {
+	float: right;
+	display: inline-block;
+	color: #fff;
+	margin: 19px 25px 0 0;
+	padding: 0 0 0 0;
+	font-size: 1.5em;
+}
+
+section {
+	padding: 50px 275px 50px 275px;
+	width: 100%;
+	height: 1090px;
+	background-image: url("../../images/uncropped/sommer-full.jpg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+}
+
+article {
+	padding: 50px 0 75px 0;
+	margin: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(150, 25, 43, .75);
+}
+
+h1 {
+	margin: 0;
+	padding: 25px 0 0 0;
+	color: #fff;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+p {
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #fff;
+	line-height: 25px;
+}
+
+footer {
+	width: 100%;
+	height: 375px;
+	display: inline-block;
+	background-color: #191C27;
+	color: #fff;
+	text-align: center;
+	padding: 0 0 0 0;
+}
+
+.footer-logo {
+	width: 350px;
+	padding: 50px 0 25px 0;
+}
+
+.bottom-icons {
+	border-radius: 50px;
+	color: #fff;
+	padding: 31px 10px 15px 10px;
+	font-size: 1em;
+	text-align: center;
+	text-decoration-line: none
+}
+
+.bottom-icons:hover {
+	background-color: #2F354B;
+}
+
+.fa-facebook, .fa-instagram {
+	font-size: 2.5em;
+	margin: 25px 10px 0 10px;
+}
